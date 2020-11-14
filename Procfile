@@ -1,1 +1,1 @@
-web:  npm i pm2 && pm2 start server.js
+web:  npm run dev
