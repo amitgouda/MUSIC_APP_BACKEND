@@ -5,16 +5,14 @@ const {
   PORT,
   JWT_KEY,
   JWT_ALGORITHM,
-  DB_NAME,
-  DB_PASSWORD,
   NODE_ENV,
+  MONGODB_URI
 } = process.env;
 
 module.exports = {
   PORT,
   JWT_KEY,
   JWT_ALGORITHM,
-  DB_NAME,
-  DB_PASSWORD,
-  NODE_ENV
+  NODE_ENV,
+  MONGODB_URI
 };

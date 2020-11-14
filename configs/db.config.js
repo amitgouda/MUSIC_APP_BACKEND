@@ -1,13 +1,8 @@
 const mongoose = require("mongoose");
-const { DB_PASSWORD, DB_NAME, NODE_ENV } = require("./index");
-
-const mongoUriString =
-  NODE_ENV === "development"
-    ? `mongodb://localhost:27017/${DB_NAME}`
-    : `mongodb+srv://miki:${DB_PASSWORD}@clustermern.ug1ir.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+const { MONGODB_URI } = require("./index");
 
 const connectMongoose = () =>
-  mongoose.connect(mongoUriString, {
+  mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
