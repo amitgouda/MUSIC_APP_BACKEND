@@ -17,6 +17,8 @@ yarn install
 ### Start the application
  yarn run dev
 
+### Application has been deployed in heroku
+ [check end points](https://vbimusicplayerserver.herokuapp.com/api/check)
 
 ## 🐛 Bugs or Requests
 
