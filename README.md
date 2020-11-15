@@ -4,6 +4,7 @@ Server code for vbi music player
 ##  Prerequisites
 * Nodejs
 * MongoDb
+* npm or yarn, but preferably yarn
 
 ## Run the App Locally
 
@@ -14,7 +15,7 @@ git clone https://github.com/amitgouda/MUSIC_APP_BACKEND.git
 yarn install
 
 ### Start the application
- npm run dev
+ yarn run dev
 
 
 ## 🐛 Bugs or Requests
